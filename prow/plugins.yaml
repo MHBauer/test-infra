@@ -331,10 +331,9 @@ plugins:
   - approve
 
   kubernetes/test-infra:
-  - approve
-  - config-updater
   - trigger
-  - verify-owners
+  - config-updater
+  - approve
 
   kubernetes/website:
   - approve
@@ -388,6 +387,7 @@ plugins:
   - blunderbuss
   - wip
   - hold
+  - approve
 
   kubernetes-sigs:
   - assign
